@@ -1,0 +1,8 @@
+--nnARR by Customer Live QTD
+select dd.fiscal_quarter_id as fiscal_quarter
+, dd.DATE_VALUE          as as_of_date
+, SUM(ARR_NET_NEW)       as ARR_NET_NEW
+from CLAUDE_MCP_DB.DATA.DW_AGG_QUARTERLY_BILLING_CUSTOMER bcq
+JOIN CLAUDE_MCP_DB.DATA.DW_DATE_DIM dd ON bcq.date_id = dd.date_id
+group by 1,2
+ORDER BY fiscal_quarter DESC;
