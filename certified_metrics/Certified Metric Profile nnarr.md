@@ -68,17 +68,17 @@ This specific metric is segmented in 3 key ways. Always confirm the 3 items befo
 | Entity Grain | Reporting State | Supported Time Views | Reporting Source Table | SQL Link |
 | :---- | :---- | :---- | :---- | :---- |
 | Customer | Snapshot | Completed Months  | TBD | TBD |
-| Customer | Snapshot | Completed Quarters | CLAUDE\_MCP\_DB.DATA.ANAPLAN\_FINANCIAL\_EFFICIENCY\_METRICS | [nnarr\_customer\_snapshot\_quarterly.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_customer_snapshot_quarterly.sql) |
-| Customer | Live | MTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_MONTHLY\_BILLING\_CUSTOMER | [nnarr\_customer\_live\_mtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_customer_live_mtd.sql) |
-| Customer | Live | QTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_QUARTERLY\_BILLING\_CUSTOMER | [nnarr\_customer\_live\_qtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_customer_live_qtd.sql) |
-| Customer | Live | Daily,  | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_DAILY\_SMOOTHED\_BILLING\_CUSTOMER | [Nnarr\_customer\_live\_daily.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_customer_live_daily.sql)  |
-| Customer  | Live | Weekly | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_DAILY\_SMOOTHED\_BILLING\_CUSTOMER | [nnarr\_customer\_live\_weekly.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_customer_live_weekly.sql) |
-| Customer Product Unit | Live | MTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_MONTHLY\_BILLING\_PRODUCT\_UNIT\_CUSTOMER | [nnarr\_customer\_prodcutunit\_live\_mtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_customer_prodcutunit_live_mtd.sql) |
-| Customer Product Unit | Live | QTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_QUARTERLY\_BILLING\_PRODUCT\_UNIT\_CUSTOMER | [nnarr\_customer\_prodcutunit\_live\_qtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_customer_prodcutunit_live_qtd.sql) |
-| Comp Theater | Live | MTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_MONTHLY\_BILLING\_COMP\_THEATER | [nnarr\_comptheater\_live\_mtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_comptheater_live_mtd.sql) |
-| Comp Theater | Live | QTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_QUARTERLY\_BILLING\_COMP\_THEATER | [nnarr\_comptheater\_live\_qtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_comptheater_live_qtd.sql) |
-| Comp Theater | Live | Daily | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_DAILY\_SMOOTHED\_BILLING\_COMP\_THEATER | [Nnarr\_comptheater\_live\_daily.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_comptheater_live_daily.sql)  |
-| Comp Theater | Live | Weekly | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_DAILY\_SMOOTHED\_BILLING\_COMP\_THEATER | [nnarr\_comptheater\_live\_weekly.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_comptheater_live_weekly.sql) |
+| Customer | Snapshot | Completed Quarters | CLAUDE\_MCP\_DB.DATA.ANAPLAN\_FINANCIAL\_EFFICIENCY\_METRICS | [nnarr\_customer\_snapshot\_quarterly.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_customer_snapshot_quarterly.sql) |
+| Customer | Live | MTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_MONTHLY\_BILLING\_CUSTOMER | [nnarr\_customer\_live\_mtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_comptheater_live_mtd.sql) |
+| Customer | Live | QTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_QUARTERLY\_BILLING\_CUSTOMER | [nnarr\_customer\_live\_qtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_comptheater_live_qtd.sql) |
+| Customer | Live | Daily,  | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_DAILY\_SMOOTHED\_BILLING\_CUSTOMER | [Nnarr\_customer\_live\_daily.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_customer_live_daily.sql)  |
+| Customer  | Live | Weekly | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_DAILY\_SMOOTHED\_BILLING\_CUSTOMER | [nnarr\_customer\_live\_weekly.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_customer_live_weekly.sql) |
+| Customer Product Unit | Live | MTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_MONTHLY\_BILLING\_PRODUCT\_UNIT\_CUSTOMER | [nnarr\_customer\_prodcutunit\_live\_mtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_customer_prodcutunit_live_mtd.sql) |
+| Customer Product Unit | Live | QTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_QUARTERLY\_BILLING\_PRODUCT\_UNIT\_CUSTOMER | [nnarr\_customer\_prodcutunit\_live\_qtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_customer_prodcutunit_live_qtd.sql) |
+| Comp Theater | Live | MTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_MONTHLY\_BILLING\_COMP\_THEATER | [nnarr\_comptheater\_live\_mtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_comptheater_live_mtd.sql) |
+| Comp Theater | Live | QTD | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_QUARTERLY\_BILLING\_COMP\_THEATER | [nnarr\_comptheater\_live\_qtd.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_comptheater_live_qtd.sql) |
+| Comp Theater | Live | Daily | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_DAILY\_SMOOTHED\_BILLING\_COMP\_THEATER | [Nnarr\_comptheater\_live\_daily.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_comptheater_live_daily.sql)  |
+| Comp Theater | Live | Weekly | CLAUDE\_MCP\_DB.DATA.DW\_AGG\_DAILY\_SMOOTHED\_BILLING\_COMP\_THEATER | [nnarr\_comptheater\_live\_weekly.sql](https://github.com/dricksPD/test_CMP/blob/main/nnarr_sql/nnarr_comptheater_live_weekly.sql) |
 | Comp Theater | Snapshot | Completed Months  | TBD | TBD |
 | Comp Theater | Snapshot | Completed Quarters | TBD | TBD |
 
