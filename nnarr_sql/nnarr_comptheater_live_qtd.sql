@@ -8,7 +8,7 @@ select d.fiscal_quarter_id as fiscal_quarter
 , d.DATE_VALUE             as as_of_date
 , b.SALES_THEATER_END      as comp_theater
 , SUM(b.ARR_NET_NEW)       as ARR_NET_NEW
-from CLAUDE_MCP_DB.DATA.DW_AGG_MONTHLY_BILLING_COMP_THEATER b
+from CLAUDE_MCP_DB.DATA.DW_AGG_QUARTERLY_BILLING_COMP_THEATER b
 JOIN CLAUDE_MCP_DB.DATA.DW_DATE_DIM d ON b.date_id = d.date_id
 group by 1,2,3
 ORDER BY fiscal_quarter;
